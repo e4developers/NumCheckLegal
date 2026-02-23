@@ -1,137 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - NumCheck</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; line-height: 1.6; color: #333; background-color: #f5f5f5; padding: 20px; }
-        .container { max-width: 800px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { color: #1A0B2E; margin-bottom: 10px; font-size: 2em; }
-        h2 { color: #1A0B2E; margin-top: 30px; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #7E57C2; }
-        h3 { color: #5E35B1; margin-top: 20px; margin-bottom: 10px; }
-        p { margin-bottom: 15px; }
-        ul { margin-left: 25px; margin-bottom: 15px; }
-        li { margin-bottom: 8px; }
-        strong { color: #1A0B2E; }
-        .last-updated { color: #666; font-style: italic; margin-bottom: 30px; }
-        a { color: #7E57C2; }
-        .note { background: #f0e6ff; padding: 15px; border-radius: 8px; margin-top: 30px; border-left: 4px solid #7E57C2; }
-        .contact { background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 20px; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Privacy Policy for NumCheck</h1>
-        <p class="last-updated"><strong>Last Updated:</strong> February 23, 2026</p>
+# Privacy Policy for NumCheck
 
-        <h2>Introduction</h2>
-        <p>NumCheck ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our lottery ticket checker mobile application.</p>
-        <p>NumCheck is designed with privacy in mind. Your lottery ticket numbers never leave your device. All ticket data is stored locally using your device's built-in storage, and we do not operate any servers that receive or store your personal information.</p>
+**Last Updated: January 16, 2026**
 
-        <h2>Information We Collect</h2>
+## Introduction
 
-        <h3>Information You Provide</h3>
-        <ul>
-            <li><strong>Lottery Ticket Numbers:</strong> Numbers you manually enter are stored locally on your device only and are never transmitted to us or any third party.</li>
-            <li><strong>App Preferences:</strong> Settings such as theme choice, notification preferences, jackpot alert thresholds, and game type selections are stored locally on your device.</li>
-        </ul>
+NumCheck ("the App"), owned and operated by E4D ("we", "our", or "us"), is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our lottery ticket checker mobile application.
 
-        <h3>Automatically Collected Information</h3>
-        <ul>
-            <li><strong>Advertising Data:</strong> Ad interaction data collected by Google AdMob when ads are displayed (see Third-Party Services below).</li>
-            <li><strong>Network Metadata:</strong> When the app fetches lottery draw results, your device's IP address is visible to our API proxy service (Cloudflare) as part of normal HTTPS traffic. No personal data is transmitted in these requests.</li>
-        </ul>
+## Information We Collect
 
-        <h2>How We Use Your Information</h2>
-        <p>We use information only to:</p>
-        <ul>
-            <li>Check your lottery tickets against official draw results — entirely on your device</li>
-            <li>Send local win notifications when your numbers match a draw (if you enable this)</li>
-            <li>Display lottery statistics, hot and cold numbers, and draw history — using cached draw data on your device</li>
-            <li>Calculate your winnings and spending history — entirely from data stored locally on your device</li>
-            <li>Display relevant advertisements via Google AdMob</li>
-            <li>Remind you of upcoming draws (local notifications only)</li>
-        </ul>
+### Information You Provide
+- **Lottery Tickets**: Numbers you manually enter to check against draw results
+- **App Preferences**: Settings like notification preferences and game type selections
 
-        <h2>Data Storage</h2>
-        <ul>
-            <li><strong>Local Only:</strong> All lottery ticket data, preferences, and statistics are stored on your device using Android SharedPreferences. This data never leaves your device.</li>
-            <li><strong>No Cloud Sync:</strong> We do not back up, sync, or store your ticket numbers on any server.</li>
-            <li><strong>Cached Draw Results:</strong> Official lottery draw results are temporarily cached on your device to reduce network requests. This cache contains only publicly available draw numbers — no personal data.</li>
-            <li><strong>No Account Required:</strong> NumCheck requires no login, account, or email address to use.</li>
-        </ul>
+### Automatically Collected Information
+- **Usage Data**: App interactions, features used, and session duration
+- **Device Information**: Device type, operating system version, and app version
+- **Advertising Data**: Ad interactions collected by Google AdMob (see Third-Party Services below)
 
-        <h2>Third-Party Services</h2>
+## How We Use Your Information
 
-        <h3>Google AdMob</h3>
-        <p>We use Google AdMob to display banner and native advertisements within the app. AdMob may collect and use:</p>
-        <ul>
-            <li>Advertising identifiers (Android Advertising ID)</li>
-            <li>Device type, operating system version, and language</li>
-            <li>Ad interaction data (impressions, clicks)</li>
-            <li>General location (country/region level, not precise GPS)</li>
-        </ul>
-        <p>AdMob operates under Google's privacy framework. You can opt out of personalized ads through your device's advertising settings (Settings &rarr; Google &rarr; Ads &rarr; Opt out of Ads Personalization).</p>
-        <p>For more information: <a href="https://policies.google.com/privacy">Google Privacy Policy</a></p>
+We use the collected information to:
+- Check your lottery tickets against official draw results
+- Send you win notifications (if enabled)
+- Display relevant advertisements
+- Improve app functionality and user experience
+- Comply with legal obligations
 
-        <h3>Cloudflare (API Proxy)</h3>
-        <p>Lottery draw result requests are routed through a Cloudflare Worker we operate. Cloudflare acts as a secure intermediary between the app and the lottery data provider. Cloudflare processes network traffic (including IP addresses) in accordance with their privacy policy. No personal data or ticket information is included in these requests — only requests for publicly available lottery draw results.</p>
-        <p>For more information: <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a></p>
+## Data Storage
 
-        <h3>LotteryData.io</h3>
-        <p>Official lottery draw results are sourced from LotteryData.io via our Cloudflare proxy. Only requests for publicly available draw result data are made. No personal information is sent to this service.</p>
+- **Local Storage**: All lottery ticket data is stored locally on your device using SharedPreferences
+- **No Cloud Sync**: We do not store your ticket numbers on our servers
+- **Cache**: Draw results are temporarily cached on your device to reduce API calls
 
-        <h2>Notifications</h2>
-        <p>NumCheck may send two types of local notifications, both of which are processed entirely on your device:</p>
-        <ul>
-            <li><strong>Win Notifications:</strong> Sent when your entered ticket numbers match a winning draw. Requires your permission and can be disabled at any time in Settings.</li>
-            <li><strong>Draw Reminders:</strong> Morning reminders sent the day after each draw. Requires your permission and can be disabled at any time in Settings.</li>
-        </ul>
-        <p>No notification content is sent to or processed by our servers.</p>
+## Third-Party Services
 
-        <h2>Children's Privacy</h2>
-        <p>NumCheck is not intended for use by anyone under 18 years of age (or the legal lottery age in your jurisdiction, whichever is higher). We do not knowingly collect personal information from minors. If you believe a child has provided personal information through this app, please contact us and we will take steps to address it.</p>
+### Google AdMob
+We use Google AdMob to display advertisements. AdMob may collect:
+- Device identifiers
+- Ad interaction data
+- General location (country/region)
 
-        <h2>Data Retention</h2>
-        <ul>
-            <li><strong>Ticket Data:</strong> Retained locally until you manually delete tickets or uninstall the app.</li>
-            <li><strong>Cached Draw Results:</strong> Refreshed periodically; stale cache is automatically replaced.</li>
-            <li><strong>App Preferences:</strong> Retained locally until you change them or uninstall the app.</li>
-            <li><strong>Ad Data:</strong> Managed by Google AdMob per Google's data retention policies.</li>
-        </ul>
+For more information: [Google AdMob Privacy Policy](https://policies.google.com/privacy)
 
-        <h2>Your Rights and Controls</h2>
-        <p>You have full control over your data:</p>
-        <ul>
-            <li><strong>Access:</strong> All ticket data is visible directly within the app.</li>
-            <li><strong>Delete:</strong> Delete individual tickets or all tickets at any time from within the app.</li>
-            <li><strong>Notifications:</strong> Enable or disable win notifications and draw reminders in Settings at any time.</li>
-            <li><strong>Ad Personalization:</strong> Opt out of personalized ads via your device's advertising settings.</li>
-            <li><strong>Full Removal:</strong> Uninstalling the app permanently removes all locally stored data from your device.</li>
-        </ul>
+### LotteryData.io API
+We fetch official lottery draw results from LotteryData.io. Only draw result data is retrieved; we do not send any personal information to this service.
 
-        <h2>Data Security</h2>
-        <ul>
-            <li>Ticket numbers are stored only on your device and are never transmitted externally.</li>
-            <li>All network requests (for draw results) use HTTPS encryption.</li>
-            <li>Our Cloudflare proxy prevents direct exposure of the underlying data provider's API credentials.</li>
-        </ul>
+## Notifications
 
-        <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time to reflect changes in the app or applicable law. Updates will be reflected by the "Last Updated" date at the top of this page. Continued use of the app after any changes constitutes your acceptance of the updated policy.</p>
+If you enable win notifications:
+- We will send local push notifications when your tickets match winning numbers
+- You can disable notifications at any time in Settings
+- Notifications are processed locally on your device
 
-        <h2>Contact Us</h2>
-        <div class="contact">
-            <p>If you have questions or concerns about this Privacy Policy or how your data is handled, please contact us:</p>
-            <p><strong>Email:</strong> lottocheckerabc@gmail.com</p>
-            <p><strong>App:</strong> NumCheck v1.0.7</p>
-        </div>
+## Children's Privacy
 
-        <div class="note">
-            <p><strong>Responsible Gaming Notice:</strong> NumCheck is for entertainment and personal ticket tracking purposes only. Lottery results are random — past winning numbers do not influence future draws. If gambling is affecting you or someone you know, contact the National Problem Gambling Helpline: <strong>1-800-522-4700</strong>.</p>
-        </div>
-    </div>
-</body>
-</html>
+NumCheck is not intended for children under 18 years of age. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us.
+
+## Data Retention
+
+- **Ticket Data**: Stored locally until you delete tickets or uninstall the app
+- **Cached Draw Results**: Refreshed every hour; old cache is automatically deleted
+- **Preferences**: Stored until you change them or uninstall the app
+
+## Your Rights
+
+You have the right to:
+- **Access**: View all data stored locally through the app
+- **Delete**: Remove any tickets you've entered
+- **Opt-Out**: Disable win notifications
+- **Uninstall**: Remove the app and all associated local data
+
+## Data Security
+
+We implement reasonable security measures:
+- All data is stored locally on your device
+- No transmission of ticket numbers to external servers
+- Secure HTTPS connections for API calls
+
+## Changes to This Policy
+
+We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last Updated" date. Continued use of the app after changes constitutes acceptance of the updated policy.
+
+## Contact Us
+
+If you have questions about this Privacy Policy, please contact us:
+
+**Email**: lottocheckerabc@gmail.com
+**App**: NumCheck v1.0.7
+
+---
+
+**Note**: NumCheck is for entertainment and tracking purposes only. Lottery results are random and past numbers do not influence future draws. Please gamble responsibly.
